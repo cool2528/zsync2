@@ -58,7 +58,7 @@ if(NOT USE_SYSTEM_CPR)
         FetchContent_Declare(cpr
             GIT_REPOSITORY https://github.com/libcpr/cpr.git
             # note: newer versions don't necessarily work with Ubuntu bionic's libcurl packages!
-            GIT_TAG 1.8.3
+            GIT_TAG 1.11.2
         )
         FetchContent_MakeAvailable(cpr)
 
